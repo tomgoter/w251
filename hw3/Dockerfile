@@ -19,10 +19,21 @@ RUN apt install -y  libtbb-dev libavcodec-dev libavformat-dev libgstreamer1.0-de
 RUN apt install -y libswscale-dev libv4l-dev
 RUN dpkg -i *.deb
 
-
+RUN rm -f /tmp/*.deb
 
 RUN apt install -y libcanberra-gtk-module libcanberra-gtk3-module libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+RUN apt-get update && apt-get install -y \
+    software-properties-common
+RUN apt-get update && apt-get install -y python3-pip 
+RUN pip3 install --upgrade pip \ 
+    && pip3 install --no-cache-dir numpy \
+    && pip3 install Cython
+
+WORKDIR /
+
+ENV PATH $PATH:/usr/local/cuda-10.0/bin
+RUN ldconfig
 
 ADD face_detector.py /
 
-CMD python ./face_detector.py 
+CMD python3 face_detector.py
