@@ -2,6 +2,14 @@ FROM alpine
 
 RUN apk update && apk add mosquitto-clients
 
-CMD mosquitto_sub -h mosquitto -t hw3_topic
+RUN apk add python
+
+RUN apk add py-pip
+
+RUN pip install paho-mqtt
+
+ADD forward.py /
+
+CMD python forward.py
 
 
