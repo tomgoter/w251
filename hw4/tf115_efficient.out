@@ -1,0 +1,80 @@
+TF 1.15 testing
+First inference may be slower
+50807.8ms
+319.9ms
+174.4ms
+170.5ms
+169.8ms
+
+Label: Confidence
+macaw: 0.75135
+TF 1.15 testing
+First inference may be slower
+52516.8ms
+315.9ms
+178.1ms
+169.8ms
+169.7ms
+
+Label: Confidence
+soft-coated wheaten terrier: 0.62035
+TF 1.15 testing
+First inference may be slower
+56639.6ms
+350.5ms
+178.7ms
+171.8ms
+179.2ms
+
+Label: Confidence
+pizza: 0.69223
+TF 1.15 testing
+First inference may be slower
+52893.9ms
+333.5ms
+175.3ms
+171.6ms
+168.7ms
+
+Label: Confidence
+marmot: 0.71713
+TF 1.15 testing
+First inference may be slower
+97588.8ms
+999.4ms
+842.2ms
+845.1ms
+871.1ms
+
+Label: Confidence
+macaw: 0.84907
+TF 1.15 testing
+First inference may be slower
+110328.8ms
+987.1ms
+814.1ms
+836.4ms
+822.7ms
+
+Label: Confidence
+soft-coated wheaten terrier: 0.75012
+TF 1.15 testing
+First inference may be slower
+104688.5ms
+1064.0ms
+810.7ms
+808.8ms
+797.9ms
+
+Label: Confidence
+pizza: 0.78267
+TF 1.15 testing
+First inference may be slower
+106378.7ms
+969.5ms
+816.4ms
+818.8ms
+824.8ms
+
+Label: Confidence
+marmot: 0.84802

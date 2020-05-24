@@ -1,0 +1,236 @@
+Looking for model at: https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/4
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+16490.2ms
+738.3ms
+236.3ms
+232.3ms
+206.8ms
+
+Label: Confidence
+macaw: 0.99980
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+17123.5ms
+835.6ms
+157.7ms
+177.5ms
+199.8ms
+
+Label: Confidence
+Irish terrier: 0.42554
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+16631.8ms
+773.9ms
+293.3ms
+298.1ms
+265.6ms
+
+Label: Confidence
+pizza: 0.71701
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+16565.2ms
+896.2ms
+284.2ms
+298.6ms
+265.9ms
+
+Label: Confidence
+marmot: 0.39983
+Looking for model at: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+20891.6ms
+829.2ms
+279.6ms
+283.8ms
+276.7ms
+
+Label: Confidence
+macaw: 0.85107
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+20799.5ms
+884.3ms
+278.9ms
+256.4ms
+285.1ms
+
+Label: Confidence
+Norwich terrier: 0.16122
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+20732.8ms
+892.9ms
+298.6ms
+304.0ms
+249.6ms
+
+Label: Confidence
+pizza: 0.87503
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+Mobilenet detected, using url and not module
+First inference may be slower
+21674.5ms
+952.6ms
+301.7ms
+281.3ms
+295.1ms
+
+Label: Confidence
+marmot: 0.60034
+Looking for model at: https://tfhub.dev/google/efficientnet/b0/classification/1
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b0/classification/1
+Looking for model at: https://tfhub.dev/google/efficientnet/b0/classification/1
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b0/classification/1
+First inference may be slower
+22982.8ms
+977.9ms
+297.4ms
+212.3ms
+301.8ms
+
+Label: Confidence
+macaw: 0.94196
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b0/classification/1
+First inference may be slower
+23124.8ms
+797.7ms
+278.2ms
+255.8ms
+307.8ms
+
+Label: Confidence
+soft-coated wheaten terrier: 0.52879
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b0/classification/1
+First inference may be slower
+23787.9ms
+827.8ms
+218.2ms
+313.7ms
+238.5ms
+
+Label: Confidence
+pizza: 0.64217
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b0/classification/1
+First inference may be slower
+23422.5ms
+801.1ms
+315.2ms
+233.3ms
+277.3ms
+
+Label: Confidence
+marmot: 0.38074
+Looking for model at: https://tfhub.dev/google/efficientnet/b4/classification/1
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b4/classification/1
+First inference may be slower
+37219.5ms
+858.1ms
+268.5ms
+293.7ms
+287.8ms
+
+Label: Confidence
+macaw: 0.76850
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b4/classification/1
+First inference may be slower
+35042.9ms
+770.8ms
+262.9ms
+232.2ms
+225.0ms
+
+Label: Confidence
+soft-coated wheaten terrier: 0.75463
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b4/classification/1
+First inference may be slower
+36510.1ms
+817.3ms
+249.4ms
+218.3ms
+377.9ms
+
+Label: Confidence
+pizza: 0.58870
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b4/classification/1
+First inference may be slower
+37002.9ms
+941.0ms
+236.5ms
+215.1ms
+220.1ms
+
+Label: Confidence
+marmot: 0.73212
+Looking for model at: https://tfhub.dev/google/efficientnet/b7/classification/1
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b7/classification/1
+First inference may be slower
+62749.2ms
+1592.0ms
+407.8ms
+356.8ms
+410.2ms
+
+Label: Confidence
+macaw: 0.93852
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b7/classification/1
+First inference may be slower
+59131.7ms
+1830.3ms
+400.3ms
+373.8ms
+417.2ms
+
+Label: Confidence
+soft-coated wheaten terrier: 0.79033
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b7/classification/1
+First inference may be slower
+57820.8ms
+1653.8ms
+470.9ms
+468.6ms
+459.5ms
+
+Label: Confidence
+pizza: 0.83019
+TF 2.1.0 testing
+Classifier URL: https://tfhub.dev/google/efficientnet/b7/classification/1
+First inference may be slower
+60712.2ms
+1825.1ms
+412.4ms
+458.6ms
+480.5ms
+
+Label: Confidence
+fox squirrel: 0.10910
