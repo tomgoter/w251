@@ -740,61 +740,61 @@ Inference with TF2 was significantly slower than that with TF1.15. Apparently th
 
 ### Jetson Inference
 
-#### GoogleNet
+#### GoogleNet  
 **Parrot**
-- image is recognized as 'macaw' (class #88) with 99.951172% confidence
-Total         CPU  11.44932ms  CUDA  11.25696ms
-**My Cute Soft-coated Wheaten Terrier**
-image is recognized as 'hyena, hyaena' (class #276) with 19.055176% confidence
-Total         CPU  12.73538ms  CUDA  12.53302ms
-**My Delicious Pizza**
-image is recognized as 'pizza, pizza pie' (class #963) with 99.169922% confidence
-Total         CPU  41.88729ms  CUDA  41.71021ms
-**Cute Semi-Domesticated Chipmunk**
-image is recognized as 'marmot' (class #336) with 65.380859% confidence
-Total         CPU  11.81363ms  CUDA  11.61536ms
+- image is recognized as 'macaw' (class #88) with 99.951172% confidence  
+Total         CPU  11.44932ms  CUDA  11.25696ms  
+**My Cute Soft-coated Wheaten Terrier**  
+image is recognized as 'hyena, hyaena' (class #276) with 19.055176% confidence  
+Total         CPU  12.73538ms  CUDA  12.53302ms  
+**My Delicious Pizza**  
+image is recognized as 'pizza, pizza pie' (class #963) with 99.169922% confidence  
+Total         CPU  41.88729ms  CUDA  41.71021ms  
+**Cute Semi-Domesticated Chipmunk**  
+image is recognized as 'marmot' (class #336) with 65.380859% confidence  
+Total         CPU  11.81363ms  CUDA  11.61536ms  
 
 #### AlexNet
-**Parrot**
-image is recognized as 'macaw' (class #88) with 99.951172% confidence
-Total         CPU  11.92051ms  CUDA  11.73824ms
-**My Cute Soft-coated Wheaten Terrier**
-image is recognized as 'Irish terrier' (class #184) with 43.530273% confidence
-Total         CPU  12.24803ms  CUDA  12.25197ms
-**My Delicious Pizza**
-image is recognized as 'pizza, pizza pie' (class #963) with 70.361328% confidence
-Total         CPU  11.83098ms  CUDA  11.80643ms
+**Parrot**  
+image is recognized as 'macaw' (class #88) with 99.951172% confidence  
+Total         CPU  11.92051ms  CUDA  11.73824ms  
+**My Cute Soft-coated Wheaten Terrier**  
+image is recognized as 'Irish terrier' (class #184) with 43.530273% confidence  
+Total         CPU  12.24803ms  CUDA  12.25197ms  
+**My Delicious Pizza**  
+image is recognized as 'pizza, pizza pie' (class #963) with 70.361328% confidence  
+Total         CPU  11.83098ms  CUDA  11.80643ms  
 **Cute Semi-Domesticated Chipmunk**
-image is recognized as 'dung beetle' (class #305) with 18.212891% confidence
-Total         CPU  12.70169ms  CUDA  12.51158ms
+image is recognized as 'dung beetle' (class #305) with 18.212891% confidence  
+Total         CPU  12.70169ms  CUDA  12.51158ms. 
 
 #### Inception V4
-**Parrot**
-image is recognized as 'macaw' (class #88) with 94.433594% confidence
-Total         CPU 213.92099ms  CUDA 213.71884ms
-**My Cute Soft-coated Wheaten Terrier**
-image is recognized as 'standard schnauzer' (class #198) with 87.207031% confidence
-Total         CPU 185.27765ms  CUDA 184.97978ms
+**Parrot**  
+image is recognized as 'macaw' (class #88) with 94.433594% confidence  
+Total         CPU 213.92099ms  CUDA 213.71884ms  
+**My Cute Soft-coated Wheaten Terrier**  
+image is recognized as 'standard schnauzer' (class #198) with 87.207031% confidence  
+Total         CPU 185.27765ms  CUDA 184.97978ms  
 **My Delicious Pizza**
-image is recognized as 'pizza, pizza pie' (class #963) with 33.837891% confidence
-Total         CPU 183.88162ms  CUDA 183.85498ms
-**Cute Semi-Domesticated Chipmunk**
-image is recognized as 'marmot' (class #336) with 50.195312% confidence
-Total         CPU 174.25325ms  CUDA 174.23187ms
+image is recognized as 'pizza, pizza pie' (class #963) with 33.837891% confidence  
+Total         CPU 183.88162ms  CUDA 183.85498ms  
+**Cute Semi-Domesticated Chipmunk**. 
+image is recognized as 'marmot' (class #336) with 50.195312% confidence  
+Total         CPU 174.25325ms  CUDA 174.23187ms  
 
-#### ResNet 152
-**Parrot**
-image is recognized as 'macaw' (class #88) with 99.804688% confidence
-Total         CPU 184.86336ms  CUDA 184.81546ms
-**My Cute Soft-coated Wheaten Terrier**
-image is recognized as 'soft-coated wheaten terrier' (class #202) with 55.712891% confidence
-Total         CPU 170.57799ms  CUDA 170.19058ms
+#### ResNet 152  
+**Parrot**  
+image is recognized as 'macaw' (class #88) with 99.804688% confidence. 
+Total         CPU 184.86336ms  CUDA 184.81546ms. 
+**My Cute Soft-coated Wheaten Terrier**  
+image is recognized as 'soft-coated wheaten terrier' (class #202) with 55.712891% confidence  
+Total         CPU 170.57799ms  CUDA 170.19058ms. 
 **My Delicious Pizza**
-image is recognized as 'pizza, pizza pie' (class #963) with 91.308594% confidence
-Total         CPU 143.68022ms  CUDA 143.40199ms
-**Cute Semi-Domesticated Chipmunk**
-image is recognized as 'marmot' (class #336) with 91.845703% confidence
-Total         CPU 147.65044ms  CUDA 147.43996ms
+image is recognized as 'pizza, pizza pie' (class #963) with 91.308594% confidence  
+Total         CPU 143.68022ms  CUDA 143.40199ms  
+**Cute Semi-Domesticated Chipmunk**  
+image is recognized as 'marmot' (class #336) with 91.845703% confidence  
+Total         CPU 147.65044ms  CUDA 147.43996ms  
 
 #### Question 7: What models did you use?
 I used GoogleNet, AlexNet, InceptionNet and ResNet-152.
