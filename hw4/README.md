@@ -30,7 +30,7 @@
 - 1281.1ms
 - 1386.6ms
 - 1521.6ms
-- 1467.7ms
+- 1467.7ms  
 -------RESULTS--------
 1. 89  macaw: 0.93359
 2. 91  lorikeet: 0.00391
@@ -43,7 +43,7 @@
 - 1531.6ms
 - 1369.3ms
 - 1565.0ms
-- 1411.2ms
+- 1411.2ms  
 -------RESULTS--------
 1. 203  soft-coated wheaten terrier: 0.18359
 2. 186  Norfolk terrier: 0.17188
@@ -56,7 +56,7 @@
 - 1714.2ms
 - 1523.7ms
 - 1627.1ms
-- 1453.4ms
+- 1453.4ms  
 -------RESULTS--------
 1. 964  pizza, pizza pie: 0.11719
 2. 814  spatula: 0.11719
@@ -69,7 +69,7 @@
 - 1427.0ms
 - 1516.3ms
 - 1728.3ms
-- 1361.9ms
+- 1361.9ms  
 -------RESULTS--------
 1. 357  weasel: 0.28906
 2. 359  polecat, fitch, foulmart, foumart, Mustela putorius: 0.08203
@@ -83,7 +83,7 @@
 - 523.7ms
 - 509.9ms
 - 723.5ms
-- 535.6ms
+- 535.6ms  
 -------RESULTS--------
 1. 89  macaw: 0.93750
 2. 90  sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita: 0.00391
@@ -91,13 +91,12 @@
 4. 335  porcupine, hedgehog: 0.00000
 5. 334  hamster: 0.00000
 
-
 **My Cute Soft-coated Wheaten Terrier**
 - 618.7ms
 - 613.2ms
 - 696.6ms
 - 868.1ms
-- 619.7ms
+- 619.7ms  
 -------RESULTS--------
 1. 283  tiger cat: 0.11719
 2. 204  West Highland white terrier: 0.03906
@@ -105,13 +104,12 @@
 4. 282  tabby, tabby cat: 0.03516
 5. 192  Airedale, Airedale terrier: 0.03125
 
-
 **My Delicious Pizza**
 - 543.2ms
 - 664.1ms
 - 499.1ms
 - 633.9ms
-- 710.6ms
+- 710.6ms  
 -------RESULTS--------
 1. 964  pizza, pizza pie: 0.33984
 2. 814  spatula: 0.12891
@@ -119,13 +117,12 @@
 4. 963  meat loaf, meatloaf: 0.07422
 5. 860  toaster: 0.01562
 
-
 **Cute Semi-Domesticated Chipmunk**
 - 859.9ms
 - 567.2ms
 - 634.4ms
 - 607.2ms
-- 611.9ms
+- 611.9ms  
 -------RESULTS--------
 1. 784  screw: 0.17188
 2. 114  snail: 0.17188
@@ -139,7 +136,7 @@
 - 324.0ms
 - 321.2ms
 - 459.8ms
-- 322.2ms
+- 322.2ms  
 -------RESULTS--------
 1. 89  macaw: 0.87891
 2. 93  bee eater: 0.00781
@@ -152,7 +149,7 @@
 - 324.5ms
 - 387.3ms
 - 486.6ms
-- 320.9ms
+- 320.9ms  
 -------RESULTS--------
 1. 286  Egyptian cat: 0.11328
 2. 357  weasel: 0.06641
@@ -165,7 +162,7 @@
 - 680.5ms
 - 389.5ms
 - 333.5ms
-- 347.4ms
+- 347.4ms  
 -------RESULTS--------
 1. 753  racket, racquet: 0.17188
 2. 715  pick, plectrum, plectron: 0.17188
@@ -178,7 +175,7 @@
 - 471.4ms
 - 404.5ms
 - 371.7ms
-- 405.2ms
+- 405.2ms  
 -------RESULTS--------
 1. 300  meerkat, mierkat: 0.10938
 2. 299  mongoose: 0.06250
@@ -192,7 +189,7 @@
 - 1765.6ms
 - 1874.2ms
 - 1882.4ms
-- 1781.2ms
+- 1781.2ms  
 -------RESULTS--------
 1. 89  macaw: 0.99609
 2. 332  hare: 0.00000
@@ -205,7 +202,7 @@
 - 2479.1ms
 - 2108.3ms
 - 2168.1ms
-- 1987.9ms
+- 1987.9ms  
 -------RESULTS--------
 1. 203  soft-coated wheaten terrier: 0.89062
 2. 185 Irish terrier: 0.06641
@@ -218,7 +215,7 @@
 - 1619.6ms
 - 1592.7ms
 - 1710.3ms
-- 1571.3ms
+- 1571.3ms  
 -------RESULTS--------
 1. 964  pizza, pizza pie: 0.98438
 2. 331  wood rabbit, cottontail, cottontail rabbit: 0.00000
@@ -231,7 +228,7 @@
 - 1758.8ms
 - 1936.6ms
 - 1762.5ms
-- 1690.5ms
+- 1690.5ms  
 -------RESULTS--------
 1. 337  marmot: 0.98047
 2. 332  hare: 0.00000
@@ -245,7 +242,7 @@
 - 81.9ms
 - 241.5ms
 - 96.1ms
-- 94.3ms
+- 94.3ms  
 -------RESULTS--------
 1. 89  macaw: 0.99609
 2. 332  hare: 0.00000
@@ -258,7 +255,7 @@
 - 81.5ms
 - 88.4ms
 - 89.1ms
-- 104.0ms
+- 104.0ms  
 -------RESULTS--------
 1. 185  Irish terrier: 0.49609
 2. 203  soft-coated wheaten terrier: 0.25391
@@ -271,7 +268,7 @@
 - 81.7ms
 - 82.9ms
 - 90.2ms
-- 81.0ms
+- 81.0ms  
 -------RESULTS--------
 1. 964  pizza, pizza pie: 0.75000
 2. 938  broccoli: 0.12109
@@ -284,7 +281,7 @@
 - 81.6ms
 - 84.4ms
 - 83.6ms
-- 84.5ms
+- 84.5ms  
 -------RESULTS--------
 1. 105  wallaby, brush kangaroo: 0.35156
 2. 337  marmot: 0.21484
