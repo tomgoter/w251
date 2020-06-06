@@ -3,7 +3,7 @@
 ### Tom Goter
 
 ### Notes
-V100 Notebook and HTML file have the complete results including for question 8. The P100 notebook froze after validation inference and before the AUC score was calculated. For the sake of saving my credits, I did not rerun. The training used the same seed as the V100 so the results are the same. The most and least toxic comments on the V100 were determined after running for two epochs (instead of 1). The most and least toxic comments on the P100 file were determined after the development.
+V100 Notebook and HTML file have the complete results including for question 8. The P100 notebook froze after validation inference and before the AUC score was calculated. For the sake of saving my credits, I did not rerun. The training used the same seed as the V100 so the results are the same. The most and least toxic comments on the V100 were determined both after running one epoch and again after running for two epochs (instead of 1). The most and least toxic comments on the P100 file were determined after the development. 
 
 ### BERT with P100
 Notebook file and HTML of output available in this repository.
