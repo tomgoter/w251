@@ -1,0 +1,19 @@
+<annotation>
+    <folder>images</folder>
+    <filename>videoplayback6590.jpg</filename>
+    <size>
+        <width>1000</width>
+        <height>563</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>millenium_falcon</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>183</xmin>
+            <ymin>204</ymin>
+            <xmax>540</xmax>
+            <ymax>354</ymax>
+        </bndbox>
+    </object>
+</annotation>

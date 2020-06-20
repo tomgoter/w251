@@ -1,0 +1,19 @@
+<annotation>
+    <folder>images</folder>
+    <filename>videoplayback6092.jpg</filename>
+    <size>
+        <width>1000</width>
+        <height>563</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>tiefighter</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>347</xmin>
+            <ymin>161</ymin>
+            <xmax>413</xmax>
+            <ymax>227</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,29 @@
+<annotation>
+    <folder>images</folder>
+    <filename>videoplayback3786.jpg</filename>
+    <size>
+        <width>1000</width>
+        <height>563</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>millenium_falcon</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>561</xmin>
+            <ymin>326</ymin>
+            <xmax>601</xmax>
+            <ymax>349</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>tiefighter</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>414</xmin>
+            <ymin>264</ymin>
+            <xmax>488</xmax>
+            <ymax>335</ymax>
+        </bndbox>
+    </object>
+</annotation>
