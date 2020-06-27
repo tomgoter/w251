@@ -18,6 +18,7 @@ This homework was quite the learning experience. I started off by provisioning t
 **5. Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?**
 - Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.
 **6. Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?**
+- The learning rate is set to use a warm-up over 8000 steps. Basically what this does is apply a linear ramp up from near 0 learning rate, to settle in at the finally desired learning rate of 1e-3.
 **7. How big was your training set (mb)? How many training lines did it contain?**
 - The English training set is 593MB, and contains more than 4.5 million sentences. Obviously since this is a translation problem there are the same number of German sentences meaning we are really training on over 1 GB of data.
 **8. What are the files that a TF checkpoint is comprised of?**
