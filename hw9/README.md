@@ -12,11 +12,11 @@ This homework was quite the learning experience. I started off by provisioning t
 **2. Do you think your model is fully trained? How can you tell?**
 - No, the validation loss is still falling so additional benefits could be had with further training.
 **3. Were you overfitting?**
-
+Maybe
 **4. Were your GPUs fully utilized?**
-- Yes, they were running at 100%. I monitored them using nvidia-smi.
-**5. Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?**
-- Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.
+- Yes, they were running at 100%. I monitored them using nvidia-smi.  
+**5. Did you monitor network traffic (hint: apt install nmon )? Was network the bottleneck?**
+- Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.  
 **6. Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?**
 - The learning rate is set to use a warm-up over 8000 steps. Basically what this does is apply a linear ramp up from near 0 learning rate, to settle in at the finally desired learning rate of 1e-3.
 **7. How big was your training set (mb)? How many training lines did it contain?**
