@@ -12,7 +12,8 @@ This homework was quite the learning experience. I started off by provisioning t
 
 2. Do you think your model is fully trained? How can you tell?
 3. Were you overfitting?
-4. Were your GPUs fully utilized?
+4. Were your GPUs fully utilized?  
+Yes - they were running at 100%. I monitored them using nvidia-smi.
 **5. Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?**
 Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.
 6. Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?
