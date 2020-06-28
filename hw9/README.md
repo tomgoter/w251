@@ -10,14 +10,18 @@ This homework was quite the learning experience. I started off by provisioning t
 - As noted above, I learned some lessons along the way, so it took me longer than most. However, with the final setup it took just under 24 hours to train the follow 50K steps at a rate of about 1.7 seconds per step.
 
 2. **Do you think your model is fully trained? How can you tell?**
-- No, the validation loss is still falling so additional benefits could be had with further training.
+- No, the validation loss is still falling and BLEU score was still increasing as shown in the plot below.
+![BLEU](/hw9/images/bleu.png)
 3. **Were you overfitting?**
-Not really. Training loss and evaluation loss were both decreasing throughout training and the BLEU score was still slowly increasing after 50K steps.
-![My Losses](/hw9/images/loss.png)
+Not really. Training loss and evaluation loss were both decreasing throughout training as shown by the figures below.
+![Training Loss](/hw9/images/train_loss.png)
+![Validation Loss](/hw9/images/eval_loss.png)
 4. **Were your GPUs fully utilized?**
-- Yes, they were running at 100%. I monitored them using nvidia-smi.  
+- Yes, they were running at 100%. I monitored them using nvidia-smi (see image below). They were pegged pretty much the entire time.
+![nvidia-smi display](/hw9/images/smi.png)
 5. **Did you monitor network traffic (hint: apt install nmon )? Was network the bottleneck?**
-- Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.  
+- Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.
+![nmon display with 1000 Mbps Network](/hw9/images/nmon.png)
 6. **Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?**
 - The learning rate uses the transformer policy which is mathematically described [on NVIDIA's website](https://nvidia.github.io/OpenSeq2Seq/html/_modules/optimizers/lr_policies.html). The policy takes an input learning rate, dimensionality, and number of warm-up steps. These parameters are all part of the config file. If you look at the mathematical equation, you will see the learning rate linearly ramps until the end of the warm-up rate. At that point it decays as the inverse square-root of the number of steps.
 ![My Learning Rate](/hw9/images/learning_rate.png)
@@ -31,6 +35,7 @@ Not really. Training loss and evaluation loss were both decreasing throughout tr
 9. **How big is your resulting model checkpoint (mb)?**
 - The data file is about 813 MB, and the meta file is about 16 MB. The index file is obviously tiny. So in total there is about 830MB of data for the checkpoint.
 10. **Remember the definition of a "step". How long did an average step take?**
-- 1.8 seconds per step for the final model with the upgraded port speed. 30 seconds per step with the 100 Mbps max port speed.
+- 1.8 seconds per step for the final model with the upgraded port speed. 30 seconds per step with the 100 Mbps max port speed. Tensorboard shows the steps per second (inverse of seconds per step), and a screenshot is provided below. The dip in steps per second that occurs each 2000 steps is the evaluation step. I changed the frequency of this evaluation from 4000 to 2000.
+![steps per second](/hw9/images/steps.png)
 11. **How does that correlate with the observed network utilization between nodes?**
 - As noted in the discussion above, the network was the bottleneck. Increasing the network utilization or network speed will reduce the time per step to a point, until the GPU itself becomes limiting.
