@@ -7,7 +7,7 @@ This homework was quite the learning experience. I started off by provisioning t
 
 
 1. **How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)**
-- As noted above, I learned some lessons along the way, so it took me longer than most. However, with the final setup it took just under 24 hours to train the follow 50K steps at a rate of about 1.7 seconds per step.
+- As noted above, I learned some lessons along the way, so it took me longer than most. However, with the final setup it took just under 24 hours to train the follow 50K steps at a rate of about 1.7 seconds per step. (See the timestamps on the BLEU and Eval Loss plots, below)
 
 2. **Do you think your model is fully trained? How can you tell?**
 - No, the validation loss is still falling and BLEU score was still increasing as shown in the plot below.
@@ -29,7 +29,9 @@ Not really. Training loss and evaluation loss were both decreasing throughout tr
 7. **How big was your training set (mb)? How many training lines did it contain?**
 - The English training set is 593MB, and contains more than 4.5 million sentences. Obviously since this is a translation problem there are the same number of German sentences meaning we are really training on over 1 GB of data.
 8. **What are the files that a TF checkpoint is comprised of?**
-- *index file* - This file has a list of all of the checkpoints that were created. Typically when restoring a checkpoint, it will try to load the latest checkpoint from the index file. 
+- *index file* - From the [TensorFlow source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/util/tensor_bundle/tensor_bundle.h#L30)The ".index" file is a string-string immutable table (tensorflow::table::Table).  Each key is a name of a tensor and its value is
+a serialized BundleEntryProto.  Each BundleEntryProto describes the metadata of a tensor: which of the "data" files contains the content of a tensor, the
+offset into that file, checksum, some auxiliary data, etc.
 - *meta file* - This file contains the graph structure of your TensorFlow model. Basically this is the connections of all the nodes and edges that represent your various operations and transformations. 
 - *Data file* - this file actually has the weights for all of your nodes in it. 
 9. **How big is your resulting model checkpoint (mb)?**
