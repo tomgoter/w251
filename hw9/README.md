@@ -13,14 +13,14 @@ This homework was quite the learning experience. I started off by provisioning t
 - No, the validation loss is still falling so additional benefits could be had with further training.
 3. **Were you overfitting?**
 Not really. Training loss and evaluation loss were both decreasing throughout training and the BLEU score was still slowly increasing after 50K steps.
-![My Losses](/images/loss.png)
+![My Losses](/hw9/images/loss.png)
 4. **Were your GPUs fully utilized?**
 - Yes, they were running at 100%. I monitored them using nvidia-smi.  
 5. **Did you monitor network traffic (hint: apt install nmon )? Was network the bottleneck?**
 - Yes, see the summary discussion. I did not upgrade the port speed from the default of 100Mbps to 1000Mbps. The net effect of this was not a 10x slowdown, but a 17x slowdown (30 seconds per step vs 1.7 seconds per step). So clearly the network is the bottleneck.  
 6. **Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?**
 - The learning rate uses the transformer policy which is mathematically described [on NVIDIA's website](https://nvidia.github.io/OpenSeq2Seq/html/_modules/optimizers/lr_policies.html). The policy takes an input learning rate, dimensionality, and number of warm-up steps. These parameters are all part of the config file. If you look at the mathematical equation, you will see the learning rate linearly ramps until the end of the warm-up rate. At that point it decays as the inverse square-root of the number of steps.
-![My Learning Rate](/images/learning_rate.png)
+![My Learning Rate](/hw9/images/learning_rate.png)
 
 7. **How big was your training set (mb)? How many training lines did it contain?**
 - The English training set is 593MB, and contains more than 4.5 million sentences. Obviously since this is a translation problem there are the same number of German sentences meaning we are really training on over 1 GB of data.
