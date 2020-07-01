@@ -28,7 +28,7 @@ Not really. Training loss and evaluation loss were both decreasing throughout tr
 ![My Learning Rate](/hw9/images/learning_rate.png)
 
 7. **How big was your training set (mb)? How many training lines did it contain?**
-- The English training set is 593MB, and contains more than 4.5 million sentences. Obviously since this is a translation problem there are the same number of German sentences meaning we are really training on over 1 GB of data.
+- The English training set is 593MB, and contains more than 4.5 million lines. According to the [source website](http://www.statmt.org/europarl/) there are 1.9M sentences and 47.8M English words. Obviously since this is a translation problem there are the same number of German sentences meaning we are really training on over 1 GB of data.
 8. **What are the files that a TF checkpoint is comprised of?**
 - *index file* - From the [TensorFlow source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/core/util/tensor_bundle/tensor_bundle.h#L30)The ".index" file is a string-string immutable table (tensorflow::table::Table).  Each key is a name of a tensor and its value is
 a serialized BundleEntryProto.  Each BundleEntryProto describes the metadata of a tensor: which of the "data" files contains the content of a tensor, the
