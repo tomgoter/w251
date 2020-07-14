@@ -10,6 +10,7 @@ Links to video from final model:
 
 You should save three videos showing your first, last, and an intermediary run of the training. Also save a couple videos from the testing process that runs at the end of the training.
 
+**[Link to Videos of Training and Testing for Final Model](https://s3.us-east.cloud-object-storage.appdomain.cloud/w251-hw11-tpg)**
 
 ### Questions
 1. **What parameters did you change?**. 
