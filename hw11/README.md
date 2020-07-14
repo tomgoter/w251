@@ -13,8 +13,9 @@ You should save three videos showing your first, last, and an intermediary run o
 
 ### Questions
 1. **What parameters did you change?**. 
-- I performed a series of perturbation studies to slowly converge on a model that would result in achieving the goal of an average reward of 200. The results of my studies are discussed below and shown in the figure below the discussion.
+- I performed a series of perturbation studies to slowly converge on a model that would result in achieving the goal of an average reward of 200. The results of my studies are discussed below and shown in the figures.
 - The baseline model trained slowly. It is represented by the black dots. One can see that after 400 episodes, the average reward had plateaued at about 30. That is not to say that the model may not have continued improving, but the slow accumulation of skill indicated that performance could be improved.
+![Baseline Model]
 - The next model looked at doubling the hidden units in both the first and second layer. This is represented by the blue series. This model plateaued around an average reward of zero between 300 and 400 training episodes. Based on the observation of how the baseline model trained, this plateau may have correlate to the first plateau seen in the baseline training between episodes 200-300. This plateau seems to occur when the lander decides it is advantageous to slow down. This observation seems to make the lander tend to hover for a while instead of learning it really needs to land to get big points.
 - The third sensitivity is the same as the previous but with double the batch size and a lower exploration factor (epsilon). The increased batch size should get the model to learn longer-range dependencies. The change to the epsilon value was to start getting the model to start making moves it knows to have high value sooner (as opposed to randomly exploring moves). I speculated that this might lead to quicker training. In the eng this model achieved the highest average reward, but still only got to about 120 after 500 episodes.
 - 
